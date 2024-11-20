@@ -26,14 +26,14 @@
           <q-badge color="red" floating>{{ cart.length }}</q-badge>
         </div>
       </q-toolbar>
-      <q-drawer v-model="isMenuOpen" side="left" bordered>
+      <!-- <q-drawer v-model="isMenuOpen" side="left" bordered>
         <q-list>
           <q-item label="Home" />
           <q-item label="Shop" />
           <q-item label="About" />
           <q-item label="Contact" />
         </q-list>
-      </q-drawer>
+      </q-drawer> -->
     </q-header>
 
     <!-- Hero Section -->
